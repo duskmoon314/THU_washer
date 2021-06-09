@@ -44,24 +44,24 @@ import {
   NDescriptionsItem,
   NTag,
   NAlert,
-} from 'naive-ui';
+} from "naive-ui";
 import {
   SignalWifi0Bar24Filled,
   SignalWifi4Bar24Filled,
-} from '@vicons/material';
-import { defineProps, toRefs } from 'vue';
+} from "@vicons/material";
+import { defineProps, toRefs } from "vue";
 
 const props = defineProps<{
-    data: {
-      code: string;
-      name: string;
-      number: number;
-      status: string;
-      offline: boolean;
-      updated: string;
-      updated_time: string;
-    };
-  }>();
+  data: {
+    code: string;
+    name: string;
+    number: number;
+    status: string;
+    offline: boolean;
+    updated: string;
+    updated_time: string;
+  };
+}>();
 
 const { data } = toRefs(props);
 </script>
