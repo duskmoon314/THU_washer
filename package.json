@@ -1,11 +1,19 @@
 {
   "name": "thu-washer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "lint": "eslint --ext .ts,.vue src/ --fix"
+    "lint": "eslint --ext .ts,.vue src/ --fix",
+    "format": "prettier --write src/**",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,md,vue}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -20,9 +28,13 @@
     "@vue/compiler-sfc": "^3.0.5",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-vue": "^7.10.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "naive-ui": "^2.11.4",
+    "prettier": "^2.3.1",
     "typescript": "^4.3.2",
     "vite": "^2.3.7",
     "vue-tsc": "^0.0.24"
