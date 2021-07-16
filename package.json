@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "axios": "0.21.1",
-    "vue": "3.1.4"
+    "vue": "3.1.5"
   },
   "devDependencies": {
     "@types/lodash": "4.14.171",
@@ -24,7 +24,7 @@
     "@typescript-eslint/parser": "4.28.3",
     "@vicons/material": "0.8.0",
     "@vitejs/plugin-vue": "1.2.5",
-    "@vue/compiler-sfc": "3.1.4",
+    "@vue/compiler-sfc": "3.1.5",
     "eslint": "7.30.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.3.0",
