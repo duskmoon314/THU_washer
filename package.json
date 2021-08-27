@@ -22,7 +22,7 @@
     "@types/lodash": "4.14.172",
     "@typescript-eslint/eslint-plugin": "4.29.3",
     "@typescript-eslint/parser": "4.29.3",
-    "@vicons/material": "0.8.0",
+    "@vicons/material": "0.11.0",
     "@vitejs/plugin-vue": "1.6.0",
     "@vue/compiler-sfc": "3.2.6",
     "eslint": "7.32.0",
